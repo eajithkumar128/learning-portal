@@ -1,10 +1,12 @@
 import Login from '../components/Login';
 import { useState } from 'react';
 import axios from 'axios';
+import { useHistory } from 'react-router-dom';
 
 export default function SignUpPage() {
 	const [username, setUsername] = useState(null);
 	const [password, setPassword] = useState(null);
+	let history = useHistory();
 
 	async function signUp() {
 		try {
@@ -12,6 +14,7 @@ export default function SignUpPage() {
 				username: username,
 				password: password,
 			});
+			history.push('/login');
 		} catch (e) {}
 	}
 
