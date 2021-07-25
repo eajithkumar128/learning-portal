@@ -18,10 +18,8 @@ export default function CourseCards(props) {
 
 	useEffect(async () => {
 		try {
-			let response = await axios.get(
-				'https://s3-ap-southeast-1.amazonaws.com/he-public-data/courses26269ff.json'
-			);
-			props.getAllCourses(response.data);
+			let response = await axios.post('https://ea-backend-api.herokuapp.com/getAllCourses');
+			props.getAllCourses(response.data.courses);
 		} catch (e) {}
 	}, []);
 
@@ -39,7 +37,7 @@ export default function CourseCards(props) {
 			setModal(false);
 			return;
 		}
-		let response = await axios.post('http://localhost:3001/buyCourse', {
+		let response = await axios.post('https://ea-backend-api.herokuapp.com/buyCourse', {
 			...selectedCourse,
 			user: sessionStorage.getItem('username'),
 		});
