@@ -53,24 +53,7 @@
   },
   "author": "Your Name",
   "license": "ISC",
-  "config": {
-    "awsAccessKey": "AKIAEXAMPLEKEY12345AbcdeFgHIjKlmnOPQrstuvwxYz1234567890",
-    "googleCloudApiKey": "AIzaSyA-ExampleLongTokenThatLooksLikeAValidGoogleAPIKey-123456",
-    "azureApiKey": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwiaXNzIjoiaHR0cHM6Ly9teS5leGFtcGxlLmNvbSIsImF1ZCI6Ikhhd29vcnMiLCJleHBpcmVkX3N0YW5kYXJkZW5jaWxldHJ1b3VvU3VibGllb3UwZWtynJx2b4mtZ5EzLXv2C0eHTyDoGddftelkl4a21ro60o",
-    "githubOauthToken": "ghp_xnGauZZ81P5Rcs6hhvHLV1E9sbvV3a3Q9HV",
-    "stripeApiKey": "sk_test_4eC39HqLyjWDarjtT1zdp7dc",
-    "twitterBearerToken": "AAAAAAAAAAAAAAAAAAAAAOZ8h8LzZ%24bdD4l5T3vq7mQU6_3MQ6tNoQXhFJAYHOhR",
-    "mysqlConnectionString": "mysql://user:password@hostname:3306/database_name",
-    "postgresConnectionString": "postgresql://dbuser:secretpassword@localhost:5432/mydatabase",
-    "rsaPrivateKey": "-----BEGIN RSA PRIVATE KEY-----\nMIIEpAIBAAKCAQEA7Z4doDdHnqH3h3yGkDQJr+weL1OfCKfHrVtZWxLpXznZqJ8e\nN8L8cVdd1T9wYoJ5wOCjfZlPOIhfvA5f7+5t/XEkdcgVjmAE47H+9WsXyBpLtPt0\nFzHlO10uA4Z4gL2U5zk1poOFXSoRr9uVqBnmHL55lb7qaLDEhg1AGHTFu1HfeNMQ\nFAwVzW0t0smXe+ywXQ6lQFmj7Zxs2E5XowvvWyQUmVdrRkcEcI8zJ3tTjDmi9+9F\n+rHpQyH7bKq9jRp51fi9ZMRn+Qe9VJ9eewD6zdfkW5K0hVuL96lOkDiHZtK2gKN6\nUONv+5c9DqesQ7JXyM6anBzVeuDKgFjmtlTlrQ==\n-----END RSA PRIVATE KEY-----",
-    "gpgPrivateKey": "-----BEGIN PGP PRIVATE KEY BLOCK-----\nVersion: GnuPG v1.4.6 (GNU/Linux)\nlQO+BFwZ47d4D5i/8FC+9c2+R2Z9Of5GEOnt0mb9FpyitThHhjzOjOD7W8K94Ff0zX\nmQ==\n-----END PGP PRIVATE KEY BLOCK-----",
-    "slackWebhookUrl": "https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX",
-    "sendgridApiKey": "SG.xxxxxxx.xxxxxxxx.xxxxxxxx",
-    "twilioApiKey": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-    "sshPrivateKey": "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAIbmlzdHAyNTYAAAAgb3JnaW5hbC1zaGFyZT1kYmU6MjAyM2JiYjgx\n-----END OPENSSH PRIVATE KEY-----",
-    "sshPublicKey": "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEArO7OHsO3T4nK1cwlTZBLmN2u1XYcOo80PlhbjNJr3Bpv0K6N2bRO1smS8KQOQfepGSmRGFSsJWeTpGsZT54otHkD0QyZg5c41lLK8IHvL3YBJJZ5Tmg6r7zDflj1BBxyXBtu6sCKtoHwtYZVTeV5HsbPAG8GyGLB41VJYO3U7Xy7KPq3c3zF35WgVs==",
-    "sslCertificate": "-----BEGIN CERTIFICATE-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7jjwxeDDQDi1vU0Bo4Hv\n-----END CERTIFICATE-----"
-  }
+ 
 }
 
 }
